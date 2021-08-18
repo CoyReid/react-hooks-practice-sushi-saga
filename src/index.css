@@ -53,6 +53,12 @@ body {
   top: 30px;
 }
 
+.secondStack {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
 .belt {
   grid-area: bt;
   display: flex;
@@ -78,4 +84,15 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+
+#atm{
+  grid-area: tb;
+  text-align: center;
+  margin-right: auto;
+}
+
+#atm .img {
+  height: 250px;
+  width: 325px;
 }
